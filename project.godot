@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="Vanitas"
+run/main_scene="res://Scenes/simple_scene.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
-config/icon="res://icon.svg"
 
 [display]
 
