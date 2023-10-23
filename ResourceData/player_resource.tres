@@ -1,0 +1,26 @@
+[gd_resource type="Resource" script_class="RCharacter" load_steps=2 format=3 uid="uid://bqiyqdhskf6ph"]
+
+[ext_resource type="Script" path="res://Scripts/Resource/RCharacter.gd" id="1_cjbdc"]
+
+[resource]
+script = ExtResource("1_cjbdc")
+MAX_HEALTH = 100.0
+CURRENT_HEALTH = 100.0
+ATTACK_POINT = 10.0
+MOVE_SPEED = 200.0
+DASH_SPEED = 1000.0
+DASH_DURATION = 0.1
+DASH_LEFT = 1
+MAX_DASH_COUNT = 1
+DASH_COOLDOWN = 0.5
+IS_DASHING = false
+IS_DASH_REFILLING = false
+JUMP_FORCE = 400.0
+JUMP_COOLDOWN = 0.2
+AIR_JUMP_LEFT = 1
+MAX_AIR_JUMP_COUNT = 5
+AIR_FALL_SPEED = 980.0
+MAX_AIR_FALL_SPEED = 980.0
+IS_JUMP_REFILLING = false
+WALL_FALL_SPEED = 440.0
+MAX_WALL_FALL_SPEED = 440.0
